@@ -1,3 +1,4 @@
+package POO_JAVA;
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -26,8 +27,8 @@ public class Main {
             System.out.print("Nome do Aluno: ");
             String nome = entrada.nextLine();
 
-            double nota1 = 0;
-            double nota2 = 0;
+            double nota1;
+            double nota2;
 
             // Validação da primeira nota (aceita apenas valores entre 0 e 10)
             while (true) {

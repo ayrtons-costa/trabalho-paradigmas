@@ -1,4 +1,4 @@
-
+package POO_JAVA;
 // Classe base que representa um aluno.
 // Armazena as informações comuns a todos os alunos,
 // independentemente do nível de ensino.
@@ -51,7 +51,7 @@ public class Aluno {
     }
 
     // Calcula e retorna a média das duas notas.
-    public Double calcularMedia() {
+    public double calcularMedia() {
         return (nota1 + nota2) /2;
     }
 

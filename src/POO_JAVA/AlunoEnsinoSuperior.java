@@ -1,3 +1,4 @@
+package POO_JAVA;
 
 // Classe que representa um aluno do Ensino Superior.
 // Herda os atributos e métodos da classe Aluno.
